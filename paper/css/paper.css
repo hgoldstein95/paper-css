@@ -355,17 +355,18 @@ td,
 th {
   padding: 0; }
 
-.paper.letter {
+.paper {
   width: 216mm;
   height: 279mm; }
-
-.paper.legal {
-  width: 216mm;
-  height: 356mm; }
-
-.paper.a4 {
-  width: 210mm;
-  height: 297mm; }
+  .paper.letter {
+    width: 216mm;
+    height: 279mm; }
+  .paper.legal {
+    width: 216mm;
+    height: 356mm; }
+  .paper.a4 {
+    width: 210mm;
+    height: 297mm; }
 
 .paper {
   padding: 0.25in; }
@@ -373,11 +374,10 @@ th {
     padding: 0; }
 
 .paper {
-  background: white;
-  border: 1px solid black;
-  margin: 20px auto;
-  box-shadow: 5px 4px 20px black;
-  position: relative; }
+  position: relative;
+  display: inline-block;
+  margin: 30px 10px 10px 10px;
+  background-color: #fafafa; }
 
 .paper header.right {
   right: 10px;
@@ -414,4 +414,7 @@ th {
   text-align: right; }
 
 body {
-  background: #333; }
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: #333; }

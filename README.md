@@ -1,5 +1,7 @@
 # [paper-css]
 
+[![Join the chat at https://gitter.im/hgoldstein95/paper-css](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/hgoldstein95/paper-css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [paper-css] \(name pending revision\), is a CSS/Sass framework that provides tools for laying out printable documents with HTML. Origionally developed for resumes, this framework gives the user pixel-precise control over their documents. In situations where word processors are too limited and other typesetting languages are too complicated, [paper-css] provides an elegant solution, that is perfect for anyone with any kind of background in web-design.
 
 ## Usage
